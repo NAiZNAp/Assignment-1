@@ -4,124 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT ME</title>
-    <style>
-        .about-me-button{
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        button{
-            background-color: Transparent;
-            background-repeat:no-repeat;
-            border: none;
-            cursor:pointer;
-            overflow: hidden;
-            outline:none;
-            font-family: 'Chathura', sans-serif;
-            font-family: 'Cormorant Garamond', serif;
-            font-family: 'Old Standard TT', serif;
-        }
-        .contact-me-button{
-            position: absolute;
-            bottom: 0%;
-            right: 0%;
-        }
-        .my-career-button{
-            position: absolute;
-            top: 0;
-            right: 0%;
-        }
-        .my-works-button{
-            position: absolute;
-            bottom: 0%;
-            left: 0;
-        }
-        .my-photo-container{
-            display: flex;
-            justify-content: center;
-            background-color: white;
-            width: 800px;
-            height: 200px;      
-            border: 1px solid black;
-            padding: 5px;
-            margin: 20px;
-        }
-        .about-me-text{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            background-color: white;
-            width: 800px;
-            height: 200px;      
-            border: 1px solid black;
-            padding: 30px;
-            margin: 20px;
-            font-family: 'Chathura', sans-serif;
-            font-family: 'Cormorant Garamond', serif;
-            font-family: 'Old Standard TT', serif;
-        }
-        h3{
-            display: flex;
-            justify-content: center;
-            text-align: center;}
-        p{text-align: center;}
-
-    </style>
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Cormorant+Garamond:wght@300&family=Old+Standard+TT&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:#f6efe2 ">
-    <div class="about-me-button">
-        <button onclick="window.location.href='about-me.html'">
-            <u>ABOUT ME</u>
+<body>
+    <div class="homepage-button-ae">
+        <button onclick="window.location.href='index.html'">
+            <u>BACK HOME</u>
         </button>
     </div>
-    <div class="contact-me-button">
+    <div class="contact-me-button-ae">
         <button onclick="window.location.href='contact-me.html'">
             <u>CONTACT ME</u>
         </button>
     </div>
-    <div class="my-career-button">
+    <div class="my-career-button-ae">
         <button onclick="window.location.href='my-career.html'">
         <u>MY CAREER</u>
         </button>
     </div>
-    <div class="my-works-button">
+    <div class="my-works-button-ae">
         <button onclick="window.location.href='my-works.html'">
         <u>MY WORKS</u>
         </button>
     </div>
-    <div class="my-photo-container">
-        <img src="baby-me.jpg" width="108px" alt="My baby photo" title="My baby photo">
-        <img src="most-recent-me.JPG" width="114px" alt="A recent photo of me" title="My recent photo">
-    </div>
-    <div class="about-me-text">
-        <h3>About Me</h3>
-        <p>
-        Hi I am a 19 year old Common ICT student currently studying at Ngee Ann Polytechnic. I am a very curious person who is eager to learn and explore. I love learning things via a hands on approach as it really helps me to learn the most effectively. I came from a very competitive school where everyone strives for their best, this has influenced me to be more hardworking and put in my utmost when necessary. I am a team player and willing to sacrifice for the team when needed.
-        ICT is a ever growing field and I hope my time in NP will enrich and prepare me for further studies and pursuing a career in ICT. I am very passionate about both design and business and wish to further my studies in either of these fields. In my 3 years in NP, I wish to further enrich myself and strive to achieve my best.
-        </p>
-    </div>
-    <div class="softskills">
-        <h3>Soft Skills</h3>
-        <p>
-            Leadership<br>
-            Decisiveness<br>
-            Critical thinking<br>
-            Teamwork<br>
-            Flexibility<br>
-            Communications
-        </p>
-    <div class="technicalskilss">
-        <h3>Technical Skills</h3>
-        <p>
-            MS Office<br>
-            Programming (Python, html, CSS, JS)<br>
-            Autodesk Maya 2020<br>
-            Adobe XD<br>
-            Adobe Photoshop<br>
-            Illustrator
-        </p>
+    <div class="about-me-content-container">
+        <div id="my-photo-container">
+            <img src="baby-me.jpg" width="208px" alt="My baby photo" title="My baby photo">
+            <img src="most-recent-me.JPG" width="214px" alt="A recent photo of me" title="My recent photo">
+        </div>
+        <div id="about-me-text">
+            <h3>About Me</h3>
+            <p>
+            Hi I am a 19 year old Common ICT student currently studying at Ngee Ann Polytechnic. I am a very curious person who is eager to learn and explore. I love learning things via a hands on approach as it really helps me to learn the most effectively. I came from a very competitive school where everyone strives for their best, this has influenced me to be more hardworking and put in my utmost when necessary. I am a team player and willing to sacrifice for the team when needed.
+            ICT is a ever growing field and I hope my time in NP will enrich and prepare me for further studies and pursuing a career in ICT. I am very passionate about both design and business and wish to further my studies in either of these fields. In my 3 years in NP, I wish to further enrich myself and strive to achieve my best.
+            </p>
+        </div>
+        <div id="softskills">
+            <h3>Soft Skills</h3>
+            <p>
+                Leadership<br>
+                Decisiveness<br>
+                Critical thinking<br>
+                Teamwork<br>
+                Flexibility<br>
+                Communications
+            </p>
+        </div>
+        <div id="technicalskills">
+            <h3>Technical Skills</h3>
+            <p>
+                MS Office<br>
+                Programming (Python, html, CSS, JS)<br>
+                Autodesk Maya 2020<br>
+                Adobe XD<br>
+                Adobe Photoshop<br>
+                Illustrator
+            </p>
+        </div>
     </div>
 </body>
 </html>

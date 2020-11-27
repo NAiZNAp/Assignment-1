@@ -4,114 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY CAREER</title>
-    <style>
-        .about-me-button{
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        button{
-            background-color: Transparent;
-            background-repeat:no-repeat;
-            border: none;
-            cursor:pointer;
-            overflow: hidden;
-            outline:none;
-            font-family: 'Chathura', sans-serif;
-            font-family: 'Cormorant Garamond', serif;
-            font-family: 'Old Standard TT', serif;
-        }
-        .contact-me-button{
-            position: absolute;
-            bottom: 0%;
-            right: 0%;
-        }
-        .my-career-button{
-            position: absolute;
-            top: 0;
-            right: 0%;
-        }
-        .my-works-button{
-            position: absolute;
-            bottom: 0%;
-            left: 0;
-        }
-        .career-photo-container{
-            display: flex;
-            justify-content: center;
-            background-color: white;
-            width: 800px;
-            height: 200px;      
-            border: 1px solid black;
-            padding: 5px;
-            margin: 20px;
-        }
-        h3{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            font-family: 'Chathura', sans-serif;
-            font-family: 'Cormorant Garamond', serif;
-            font-family: 'Old Standard TT', serif;
-        }
-        p{
-            text-align: center;
-            font-family: 'Chathura', sans-serif;
-            font-family: 'Cormorant Garamond', serif;
-            font-family: 'Old Standard TT', serif;
-        }
-        .career-roadmap{
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Cormorant+Garamond:wght@300&family=Old+Standard+TT&display=swap" rel="stylesheet">    
 </head>
-<body style="background-color:#f6efe2 ">
-    <div class="about-me-button">
+<body>
+    <div class="about-me-button-mc">
         <button onclick="window.location.href='about-me.html'">
             <u>ABOUT ME</u>
         </button>
     </div>
-    <div class="contact-me-button">
+    <div class="contact-me-button-mc">
         <button onclick="window.location.href='contact-me.html'">
             <u>CONTACT ME</u>
         </button>
     </div>
-    <div class="my-career-button">
-        <button onclick="window.location.href='my-career.html'">
-        <u>MY CAREER</u>
+    <div class="homepage-button-mc">
+        <button onclick="window.location.href='index.html'">
+            <u>BACK HOME</u>
         </button>
     </div>
-    <div class="my-works-button">
+    <div class="my-works-button-mc">
         <button onclick="window.location.href='my-works.html'">
         <u>MY WORKS</u>
         </button>
     </div>
-    <div class="career-photo-container">
-        <img src="RIASEC.png" width="700px" alt="My RIASEC profile" title="My RIASEC profile">
-    </div>
-    <div class="about-me-text">
-        <h3>My future career plan</h3>
-        <div class="career-roadmap">
+    <div class="my-career-content-container">
+        <div id="career-photo-container">
+            <img src="RIASEC.png" width="700px" alt="My RIASEC profile" title="My RIASEC profile">
+        </div>
+            <h3>My future career plan</h3>
+        <div id="career-roadmap">
             <img src="roadmap.JPG" width="700px" alt="My future career plans" title="My Career Roadmap">
         </div>
-        <p>
-        I aspire to be a UI/UX, level or VR/AR designer. 
-        The idea of being a UI/UX designer is appealing to me because seeing a user who enjoys using the user interface of an app/OS/website gives me a sense of fulfilment, 
-        similarly for a user’s experience, I believe in using the knowledge I will learn to help create a more seamless and easy to use interface for the user. 
-        </p>
+        <div id="career-plan">
+            <p>
+            I aspire to be a UI/UX, level or VR/AR designer. 
+            The idea of being a UI/UX designer is appealing to me because seeing a user who enjoys using the user interface of an app/OS/website gives me a sense of fulfilment, 
+            similarly for a user’s experience, I believe in using the knowledge I will learn to help create a more seamless and easy to use interface for the user. 
+            </p>
+        </div>
+        <div id="work-exp">
+            <h3>Work Experiences</h3>
+            <p>
+                I have worked as a sales assistant at iKea for about a month in early 2020. Before working as a store assitant at Unity for a brief period soon after.
+                During September holiday, I have also worked as a warehouse asssitant briefly. 
+            </p>
+        </div>
+        <div id="edu-history">
+            <h3>Educational History</h3>
+            <p>
+                2012 - 2015 Stamford Primary School<br>
+                2016 - 2019 Chung Cheng High School (Main)<br>
+                2020 - Current Ngee Ann Polytechnic Diploma in Immersive Media
+            </p>
+        </div>
     </div>
-    <div class="softskills">
-        <h3>Work Experiences</h3>
-        <p>
-
-        </p>
-    <div class="technicalskils">
-        <h3>Educational History</h3>
-        <p>
-            
-        </p>
 </body>
 </html>

@@ -4,75 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY WORKS</title>
-    <style>
-        .about-me-button{
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        button{
-            background-color: Transparent;
-            background-repeat:no-repeat;
-            border: none;
-            cursor:pointer;
-            overflow: hidden;
-            outline:none;
-            font-family: 'Chathura', sans-serif;
-            font-family: 'Cormorant Garamond', serif;
-            font-family: 'Old Standard TT', serif;
-        }
-        .contact-me-button{
-            position: absolute;
-            bottom: 0%;
-            right: 0%;
-        }
-        .my-career-button{
-            position: absolute;
-            top: 0;
-            right: 0%;
-        }
-        .my-works-button{
-            position: absolute;
-            bottom: 0%;
-            left: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Cormorant+Garamond:wght@300&family=Old+Standard+TT&display=swap" rel="stylesheet">    
 </head>
-<body style="background-color:#f6efe2 ">
-    <div class="about-me-button">
+<body>
+    <div class="about-me-button-mw">
         <button onclick="window.location.href='about-me.html'">
             <u>ABOUT ME</u>
         </button>
     </div>
-    <div class="contact-me-button">
+    <div class="contact-me-button-mw">
         <button onclick="window.location.href='contact-me.html'">
             <u>CONTACT ME</u>
         </button>
     </div>
-    <div class="my-career-button">
+    <div class="my-career-button-mw">
         <button onclick="window.location.href='my-career.html'">
         <u>MY CAREER</u>
         </button>
     </div>
-    <div class="my-works-button">
-        <button onclick="window.location.href='my-works.html'">
-        <u>MY WORKS</u>
+    <div class="homepage-button-mw">
+        <button onclick="window.location.href='index.html'">
+            <u>BACK HOME</u>
         </button>
     </div>
-    <div class="work-photo-container">
-        
+    <div class="work-container">
+        <h3>Past Work</h3>
+        <div id="work-photo-container">
+            <img src="Applemusic.gif" width="163px" alt="Apple Music Splash Page" title="Apple Music Splash Page">
+            <img src="Infographics.jpg" width="500px" alt="Infographics of the features of Apple Music" title="Infographics">
+        </div>
+        <h3>Video Demonstration</h3>
+        <div id="work-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ya4UGUhJKRs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
-    <div class="work-video">
-        
-    </div>
-    <div class="work-in-progress">
-        <h3>Work In Progress</h3>
-        <p>
-
-        </p>
-    <div class="unknown-section">
-        <h3>unknown-section</h3>
 </body>
 </html>

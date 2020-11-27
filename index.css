@@ -1,0 +1,359 @@
+/* The following are CSS for index.html */
+body{
+    background-image: url(background.jpg)
+}
+.about-me-button{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+.contact-me-button{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+.my-career-button{
+    position: fixed;
+    top: 0;
+    right: 0%;
+}
+.my-works-button{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+.my-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between center;
+    align-items: center;
+}
+img{
+    width: 300px;
+    border: 1;
+}
+@media (max-width: 920px) {
+    .my-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:250px;
+        border: 1;
+    }
+img{
+    width:250px;
+    border: 1;
+}
+}
+
+/*The following are CSS for aboutme.html */
+body{
+    background-image: url(background.jpg)
+}
+.homepage-button-ae{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+.contact-me-button-ae{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+.my-career-button-ae{
+    position: fixed;
+    top: 0;
+    right: 0%;
+}
+.my-works-button-ae{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+.about-me-content-container{
+    padding: 30px;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+#my-photo-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    }
+#about-me-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+    }
+#softskills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+#technicalskills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+h3{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightblue;
+}
+p{text-align: center;}
+@media (max-width: 920px) {
+    img{
+        width:150px;
+    }
+}
+
+/* the following are css for contactme.html */
+body{
+    background-image: url(background.jpg)
+}
+.about-me-button-ce{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.homepage-button-ce{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+.my-career-button-ce{
+    position: fixed;
+    top: 0;
+    right: 0%;
+}
+.my-works-button-ce{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+.my-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[id=fname]{
+    width: 800px;
+    height: 50px;
+    padding: 12px;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[id=lname]{
+    width: 800px;
+    height: 50px;
+    padding: 12px;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[id=email]{
+    width: 800px;
+    height: 50px;
+    padding: 12px;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[id=message]{
+    width: 800px;
+    height: 500px;
+    padding: 12px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* The following are CSS for my-career.html */
+body{
+    background-image: url(background.jpg)
+}
+.about-me-button-mc{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+.contact-me-button-mc{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+.homepage-button-mc{
+    position: fixed;
+    top: 0;
+    right: 0%;
+}
+.my-works-button-mc{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+.my-career-content-container{
+    padding: 30px;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+#career-photo-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+#career-roadmap{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+#career-plan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+#work-exp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+#edu-history{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.career-roadmap{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightblue;
+}
+p{text-align: center;}
+@media (max-width: 920px) {
+img{
+    width:300px;
+}
+}
+
+/* THe following are CSS for my-works.html */
+body{
+    background-image: url(background.jpg)
+}
+.about-me-button-mw{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+.contact-me-button-mw{
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+}
+.my-career-button-mw{
+    position: fixed;
+    top: 0;
+    right: 0%;
+}
+.homepage-button-mw{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+.work-container{
+    padding: 30px;
+    font-family: 'Chathura', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Old Standard TT', serif;
+}
+#work-photo-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+#work-video{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+h3{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightblue;
+}
+@media (max-width: 920px) {
+img{
+    width:300px;
+}
+}
