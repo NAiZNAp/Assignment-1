@@ -1,5 +1,6 @@
 <h1>Assignment 1</h1>
 This project I have chosen to do a personal portfolio for myself by creating a personal website. In which I included self introduction, education history and work history amongst others so people viewing it, especially potential employers, will get to know me better. Lastly I have also included a contact me page where the employer can contact me easily. 
+Github published link: https://naiznap.github.io/Assignment-1/
 
 <h2>Design process</h2>
 The entire design was in some part inspired by the website i made for FP1 in semester 1. However after some time, I realized in order to replicate the same or a similar style is different, so I took the liberty to change some parts to make it easier and more plausible for me to create. Overall there are 4 buttons at 4 corners that serves as nav bar for the readers to direct themselves, and all the pages are interconeected. All the content are centralized and split up into different section, all the web pages used a similar design language.
